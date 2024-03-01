@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.sing-in {
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 40px;
+    margin: 100px auto;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.input .search {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+i {
+    padding: 0 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.gSearch,
+.lucky {
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    opacity: 0.9;
+}
+
+.lang {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lang p {
+    font-size: 13px;
+}
+
+.lang a {
+    font-size: 13px;
+    color: #1967d2;
+
+}
+
+footer {
+    background-color: #a5a5a5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.count {
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footerRight {
+    margin-right: 15px;
+}
